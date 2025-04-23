@@ -1,0 +1,48 @@
+/* User Profile Styling */
+.user-profile-bg {
+    background-color: #f4f7fc;
+}
+
+.profile-box {
+    max-width: 600px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.profile-details h5 {
+    margin-bottom: 15px;
+}
+
+.list-group-item {
+    background-color: #f9f9f9;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.list-group-item strong {
+    color: #333;
+}
+
+.btn {
+    width: 48%;
+}
+
+.text-muted {
+    font-size: 14px;
+}
+
+@media (max-width: 576px) {
+    .profile-box {
+        padding: 20px;
+    }
+
+    .btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+

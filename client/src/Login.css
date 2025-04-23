@@ -1,0 +1,16 @@
+/* Login.css */
+.login-bg {
+    background-color: #f8f9fa;
+  }
+  
+  .login-box {
+    max-width: 400px; /* Limit maximum width on larger screens */
+    width: 90%; /* Take up 90% width on smaller screens */
+    /* ... other styles ... */
+  }
+  
+  @media (min-width: 576px) {
+    .login-box {
+      width: 500px; /* Wider on larger screens */
+    }
+  }

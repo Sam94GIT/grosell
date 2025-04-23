@@ -1,0 +1,121 @@
+/* Homepage.css */
+
+.hero-section {
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-padding {
+    padding: 60px 0;
+}
+
+.section-title {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.category-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.2s;
+    background-color: white;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.category-image {
+    width: 100%;
+    height: 150px; /* Fixed height for consistency */
+    object-fit: cover; /* Ensure image fills the space */
+    border-radius: 8px;
+}
+
+.category-title {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.product-image {
+    width: 100%;
+    height: 200px;  /* Fixed height for product images */
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product-title {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.product-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #28a745; /* Green for price */
+    margin-bottom: 10px;
+}
+.category-link {
+    display: block;
+    width: 100%;
+    text-decoration: none; /* Remove underline from link */
+}
+
+.category-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.category-banner h3 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+.bg-vegetables {
+    background-color: #4CAF50; /* Green */
+}
+
+.bg-fruits {
+  background-color: #FFC107; /* Yellow */
+}
+
+.bg-dairy{
+    background-color: #64b5f6; /* Blue */
+}
+
+.category-row {
+    display: flex;
+    gap: 20px; /* Adjust the space as needed */
+    flex-wrap: wrap; /* Makes it responsive */
+    justify-content: center; /* Optional: centers the items */
+  }
+  
